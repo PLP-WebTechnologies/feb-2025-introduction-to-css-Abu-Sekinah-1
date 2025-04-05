@@ -1,0 +1,44 @@
+/* 1. Styling for the body of the page */
+body {
+    font-family: 'Arial', sans-serif;  /* Set a sans-serif font */
+    background-color: #f4f4f4;        /* Set a light grey background */
+    color: #333;                      /* Set a dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Styling for the header */
+#main-header {
+    background-color: #4CAF50;        /* Green background for the header */
+    color: white;                     /* White text color */
+    text-align: center;               /* Center the text */
+    padding: 20px 0;                  /* Add padding to the top and bottom */
+    margin-bottom: 30px;              /* Space below the header */
+}
+
+/* 3. Styling for content section with class .content */
+.content {
+    margin: 20px;                     /* Add margin to the content */
+    padding: 20px;                    /* Add padding inside the content */
+    background-color: #ffffff;        /* Set a white background */
+    border: 1px solid #ddd;           /* Light gray border */
+    border-radius: 8px;               /* Rounded corners */
+}
+
+/* 4. Style an image */
+img {
+    max-width: 100%;                  /* Ensure image doesn't overflow its container */
+    height: auto;                     /* Maintain aspect ratio */
+    border-radius: 8px;               /* Round the corners of the image */
+    margin-top: 20px;                 /* Add margin on top of the image */
+}
+
+/* 5. Style links */
+a {
+    color: #4CAF50;                   /* Green color for links */
+    text-decoration: none;             /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline;       /* Underline on hover */
+}
